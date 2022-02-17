@@ -1,7 +1,8 @@
-# sql-challenge
+# SQL-challenge
+
 ## Employee Database: A Mystery in Two Parts
 
-![sql.png](images/sql.png)
+![sql.png](images/SQL_img.jpg)
 
 ## Data Engineering and Data Analysis
 

@@ -10,45 +10,46 @@ It is a beautiful spring day, and it is two weeks since you have been hired as a
 
 Design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:
 
-1. Data Engineering
-
-3. Data Analysis
-
-
-## Instructions
 
 #### Data Modeling
+
+
+![ERD](images/ERD.jpg)
 
 Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
 
 #### Data Engineering
 
-* Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
-
-  * For the primary keys check to see if the column is unique, otherwise create a [composite key](https://en.wikipedia.org/wiki/Compound_key). Which takes to primary keys in order to uniquely identify a row.
-  * Be sure to create tables in the correct order to handle foreign keys.
+* Use the information you have to create a table schema for each of the six CSV files. 
 
 * Import each CSV file into the corresponding SQL table. **Note** be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
 
 #### Data Analysis
 
-Once you have a complete database, do the following:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
+![table_1](images/table_1.jpg)
 
 2. List first name, last name, and hire date for employees who were hired in 1986.
+![table_2](images/table_2.jpg)
 
 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
+![table_3](images/table_3.jpg)
 
 4. List the department of each employee with the following information: employee number, last name, first name, and department name.
+![table_4](images/table_4.jpg)
 
 5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
+![table_5](images/table_5.jpg)
 
 6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
+![table_6](images/table_6.jpg)
 
 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+![table_7](images/table_7.jpg)
 
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+![table_8](images/table_8.jpg)
 
 ## Bonus (Optional)
 
@@ -67,12 +68,16 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 * If using a password, do not upload your password to your GitHub repository. See [https://www.youtube.com/watch?v=2uaTPmNvH0I](https://www.youtube.com/watch?v=2uaTPmNvH0I) and [https://help.github.com/en/github/using-git/ignoring-files](https://help.github.com/en/github/using-git/ignoring-files) for more information.
 
 2. Create a histogram to visualize the most common salary ranges for employees.
+![histplot](images/histplot.png)
 
 3. Create a bar chart of average salary by title.
+![bar_plot](images/bar_plot.png)
 
 ## Epilogue
 
 Evidence in hand, you march into your boss's office and present the visualization. With a sly grin, your boss thanks you for your work. On your way out of the office, you hear the words, "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
+
+![epi](images/epi.jpg)
 
 ## Submission
 

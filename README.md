@@ -14,7 +14,7 @@ Design the tables to hold data in the CSVs, import the CSVs into a SQL database,
 #### Data Modeling
 
 
-![ERD](images/ERD.jpg)
+![ERD](images/ERD.JPG)
 
 Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
 
@@ -28,28 +28,28 @@ Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool li
 
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
-![table_1](images/table_1.jpg)
+![table_1](images/table_1.JPG)
 
 2. List first name, last name, and hire date for employees who were hired in 1986.
-![table_2](images/table_2.jpg)
+![table_2](images/table_2.JPG)
 
 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
-![table_3](images/table_3.jpg)
+![table_3](images/table_3.JPG)
 
 4. List the department of each employee with the following information: employee number, last name, first name, and department name.
-![table_4](images/table_4.jpg)
+![table_4](images/table_4.JPG)
 
 5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
-![table_5](images/table_5.jpg)
+![table_5](images/table_5.JPG)
 
 6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
-![table_6](images/table_6.jpg)
+![table_6](images/table_6.JPG)
 
 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-![table_7](images/table_7.jpg)
+![table_7](images/table_7.JPG)
 
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
-![table_8](images/table_8.jpg)
+![table_8](images/table_8.JPG)
 
 ## Bonus (Optional)
 
@@ -77,21 +77,9 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 
 Evidence in hand, you march into your boss's office and present the visualization. With a sly grin, your boss thanks you for your work. On your way out of the office, you hear the words, "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
 
-![epi](images/epi.jpg)
+![epi](images/epi.JPG)
 
-## Submission
 
-* Create an image file of your ERD.
-
-* Create a `.sql` file of your table schemata.
-
-* Create a `.sql` file of your queries.
-
-* (Optional) Create a Jupyter Notebook of the bonus analysis.
-
-* Create and upload a repository with the above files to GitHub and post a link on BootCamp Spot.
-
-* Ensure your repository has regular commits and a thorough README.md file
 
 ## Rubric
 
